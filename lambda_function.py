@@ -44,7 +44,7 @@ def lambda_handler(event, context):
                     'PHONE',
                     'SSN'
                 ],
-                'MaskMode': 'MaskMode',
+                'MaskMode': 'MASK',
                 'MaskCharacter': '*'
             },
             DataAccessRoleArn=comprehend_role_arn,  # IAM role with necessary permissions
